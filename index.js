@@ -13,6 +13,6 @@ app.use(morgan('dev'))
 
 app.use('/api', require('./routes'))
 
-app.listen(3000, () => {
-    console.log('Server started listening on port 3000')
+app.listen(8080, () => {
+    console.log('Server started listening on port 8080')
 })
