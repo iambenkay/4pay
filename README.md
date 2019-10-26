@@ -26,11 +26,11 @@ POST /api/users
     accountType: String,
 }
 ```
-Note: The register route follows strict validation rules shown below:
-email => valid email address format (xxxx@xxx.xxx)
-password => 8+ characters
-phone => international format of phone numbers (+xxx...) must be 13 digits after '+'
-accountType => one of 'freelancer' or 'employer'
-gender => one of 'M' or 'F'
-
+Note: The register route follows strict validation rules shown below:  
+email => valid email address format (xxxx@xxx.xxx)  
+password => 8+ characters  
+phone => international format of phone numbers (+xxx...) must be 13 digits after '+'  
+accountType => one of 'freelancer' or 'employer'  
+gender => one of 'M' or 'F'  
+  
 I am making this a public repo.
